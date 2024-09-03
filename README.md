@@ -15,8 +15,11 @@
         <ol>
             <li>Clone este repositório: <code>git clone https://github.com/BarretoJv22/LivrariaAPI.git</code></li>
             <li>Entre na pasta do projeto: <code>cd LivrariaAPI</code></li>
-            <li>Instale as dependências: <code>npm install</code></li>
+            <li>Instale as dependências gerais do projeto: <code>npm install</code></li>
+            <li><strong>Instale o Mongoose:</strong> <code>npm install mongoose</code></li>
+            <li><strong>Instale o MongoDB:</strong> <code>npm install mongodb</code></li>
             <li>Configure as variáveis de ambiente no arquivo <code>.env</code>, incluindo a URL de conexão com o MongoDB Atlas. Por exemplo: <code>MONGODB_URI=sua-chave-de-conexao</code>.</li>
+            <li><strong>Importante:</strong> Certifique-se de já ter um banco de dados criado no MongoDB Atlas antes de iniciar o sistema.</li>
             <li>Inicie o servidor: <code>npm run dev</code></li>
         </ol>
         <h2>Endpoints</h2>
